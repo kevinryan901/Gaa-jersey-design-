@@ -1,0 +1,16 @@
+// App.js
+import React from 'react';
+import JerseyDesigner from './components/JerseyDesigner';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h1>GAA Jersey Designer</h1>
+      </header>
+      <JerseyDesigner />
+    </div>
+  );
+}
+
+export default App;
